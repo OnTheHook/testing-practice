@@ -1,4 +1,4 @@
-import caesarCipher from "./caesarCipher";
+import caesarCipher from "../apps/caesarCipher";
 
 test("sentence cypher", () => {
   expect(caesarCipher("defend the east wall of the castle", 1)).toBe(
